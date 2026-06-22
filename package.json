@@ -1,0 +1,22 @@
+{
+  "name": "audemodo-core",
+  "private": true,
+  "packageManager": "pnpm@11.8.0",
+  "engines": {
+    "node": ">=20.9"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check-types": "turbo run check-types"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.31.0",
+    "prettier": "^3",
+    "turbo": "^2",
+    "typescript": "^5"
+  }
+}

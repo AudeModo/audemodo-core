@@ -1,0 +1,12 @@
+node_modules
+.next
+.next/dev
+out
+build
+dist
+.turbo
+.vercel
+coverage
+pnpm-lock.yaml
+*.svg
+next-env.d.ts
