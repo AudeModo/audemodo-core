@@ -1,3 +1,4 @@
+/** 홈(`/`). 아직 walking skeleton. */
 export default function Page() {
   return (
     <main>

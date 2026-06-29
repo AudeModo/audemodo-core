@@ -1,7 +1,11 @@
 import Link from 'next/link';
 
-import { listPosts } from '@/lib/content';
+import { listPosts } from '@/features/posts';
 
+/**
+ * 글 목록 페이지(`/posts`).
+ * seam(`listPosts`)으로 메타만 받아 나열한다.
+ */
 export default async function PostsPage() {
   const posts = await listPosts();
 
